@@ -8,6 +8,7 @@
 		var $email;
 		var $active;
 		
+		//ham getall
 		function getAll(){
 			$connect = new PhpConnection();
 			$conn = $connect->connect();
