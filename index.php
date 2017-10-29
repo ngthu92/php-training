@@ -1,6 +1,7 @@
 <?php
+echo 'Hello index.php';
 
-echo 'Hello111 index.php';
 
 
+echo 'Hello 222 index.php';
 ?>
