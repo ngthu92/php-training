@@ -3,7 +3,6 @@
 <?php 
 	include_once("UserController.php");  
 	
-	
 	if(isset($_POST['Add'])) 
 	{ 
 		$control = new UserController();
@@ -27,8 +26,8 @@
 <body>
 <form action='' method='POST'>
 
-	 Username:<br>
-  <input type="text" name="username" value=""><br>
+	Username: <br>
+  <input type="text" name="username" value="" placeholder="Please enter your username"><br>
   Password:<br>
   <input type="password" name="password" value=""><br>
   Full name:<br>
